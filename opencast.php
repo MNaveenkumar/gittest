@@ -2,13 +2,7 @@
 
 $username = "matterhorn_system_account";
 $password = "opencast";
-//$curl = curl_init($service_url);
-//$post_data = array(
-//            "username" => 'restuser1',
-//            "password" => 'opencast',
-//            "roles" => array()
-//            );
-//
+
             $postdata = array('flavor'=>'presentation/source',
             'title'=>'test-ingest-via-curl',
             'creator'=>'John Doe',
